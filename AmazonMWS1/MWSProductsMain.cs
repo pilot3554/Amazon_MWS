@@ -10,10 +10,11 @@ namespace AmazonMWS1{
             /************************************************************************
              * Access Key ID and Secret Access Key ID
              ***********************************************************************/
-            String accessKeyId = "AKIAIYVOST33BPAYD3KA";
-            String secretAccessKey = "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";
-            String merchantId = "A25SBROR340M5M";
-            String marketplaceId = "ATVPDKIKX0DER";
+            String accessKeyId = "xxx";
+            String secretAccessKey = "xxx";
+            String merchantId = "xxx";
+            String marketplaceId = "xxx";
+
 
             /************************************************************************
              * The application name and version are included in each MWS call's
@@ -28,8 +29,9 @@ namespace AmazonMWS1{
              ***********************************************************************/
             GetMatchingProduct mp = new GetMatchingProduct(accessKeyId, secretAccessKey, merchantId, marketplaceId,applicationName,applicationVersion);
 
-            mp.GetProductInformation("B00E9PMMX0"); //Place your book ASIN here
-
+            //mp.GetProductInformation("B00E9PMMX0"); //Place your book ASIN here
+            mp.GetProductInformation("B002JZ8ETS"); //Place your book ASIN here
+            
             /***********************************************************************
              * Demo Stuff
              ***********************************************************************/
